@@ -98,7 +98,7 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
-
+  display: none;
 }
 
 .site-link{
@@ -111,6 +111,10 @@
 }
 
 @media(min-width: 900px){
+
+  .col{
+    display: flex;
+  }
   .available{
     top: 6.9em;
  }
