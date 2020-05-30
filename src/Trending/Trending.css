@@ -1,0 +1,91 @@
+
+ .trending-head{
+    display: block;
+    margin-bottom: 2em;
+}
+
+.trending-head h3{
+    font-size: 2.5em;
+}
+
+.trending-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trending-comp{
+    text-align: left;
+    padding: 1em;
+    transition: all .5s ease-in-out;
+}
+
+.trending-comp:hover{
+    transform: scale(1.1);
+}
+
+.trending-comp img{
+    max-width: 300px;
+    width: 50%;
+    display: block;
+}
+
+.trending-comp .title{
+    text-align: left;
+    padding: 0;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.trending-comp .title:hover{
+    color: #055fc7;
+}
+
+.trending-comp span {
+    vertical-align: super;
+    font-size: 9px;
+}
+
+.trending-comp .date {
+    font-size: 13px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+.trending-comp .price{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.trending-comp .switch {
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+    border-bottom: 2px solid red;
+}
+
+.special{
+    margin-top: 5em;
+}
+
+@media(min-width: 900px){
+    .trending-head{
+        display: flex;
+        justify-content: space-between;
+    }
+
+   .special{
+        margin-top: 1em;
+    }
+
+    .trending-bar .columns{
+        display: flex;
+    }
+
+    .trending-comp img{
+        max-width: 300px;
+        width: 50%;
+        display: block;
+    }
+}

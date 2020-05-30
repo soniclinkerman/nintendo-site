@@ -1,0 +1,24 @@
+.w{
+    width: 50%;
+    margin: auto;
+}
+
+.title-head{
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.title{
+    padding: 2em;
+    font-weight: bold;
+}
+
+.carousel .carousel-indicators li {
+    background-color: red;
+}
+
+.line {
+    background-color: red;
+    width: 77%;
+    margin-bottom: 2em;
+}

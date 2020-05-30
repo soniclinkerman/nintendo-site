@@ -1,0 +1,58 @@
+img {
+    width: 30%;
+}
+.systems{
+    color: #777777;
+    width: 80%;
+    margin: auto;
+}
+
+.system-title{
+    font-size: 33px;
+    color: #353434;
+}
+
+.systems span {
+    font-size: 10px;
+    vertical-align: super;
+}
+
+.system-one, .system-two {
+    margin: auto;
+    margin: 2em;
+    transition: all 0.4s ease-in-out; 
+}
+
+.system-one .container img, .system-two .container img{
+    width: 100%;
+}
+
+.system-one .container img{
+    max-width: 500px;
+}
+
+.system-two .container img{
+    max-width: 200px;
+}
+
+.system-one:hover, .system-two:hover{
+    cursor: pointer;
+    color: #1094ff;
+    transform: scale(1.2);
+}
+
+@media(min-width: 900px){
+    img {
+        width: 60%;
+    }
+
+    .system-title{
+        font-size: 50px;
+    }
+
+.systems{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+}
