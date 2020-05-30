@@ -19,6 +19,10 @@
     transition: all .5s ease-in-out;
 }
 
+.trending-title {
+    color: #076aff;
+}
+
 .trending-comp:hover{
     transform: scale(1.1);
 }
@@ -79,9 +83,7 @@
         margin-top: 1em;
     }
 
-    .trending-title {
-        color: #076aff;
-    }
+    
 
     .trending-bar .columns{
         display: flex;
