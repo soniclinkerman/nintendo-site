@@ -95,9 +95,6 @@
 
 }
 .col-1 {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
   display: none;
 }
 
@@ -112,20 +109,18 @@
 
 @media(min-width: 900px){
 
-  .col-1{
+  /* .col-1{
     display: flex;
-  }
+    justify-content: space-between;
+    margin: auto;
+  } */
   .available{
-    top: 6.9em;
+    top: 7em;
  }
 
   .available .container{
     display: flex;
     justify-content: space-around;
-  }
-
-  .available p {
-    order:3;
   }
 
   .available img{
@@ -134,9 +129,8 @@
 }
 
 .site-link{
-  order: 2;
   padding: 0.5em 1em;
-  font-size: 0.5em;
+  order: 2;
  
 }
 
