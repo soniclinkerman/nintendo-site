@@ -27,10 +27,6 @@ nav {
     margin-right: 15px;
 }
 
-.change-region{
-    font-size: 0.7em;
-}
-
 .region{
     display: flex;
     align-items: center;
@@ -45,7 +41,7 @@ nav {
     margin-right: 5px;
 }
 
-.search-text, .region-text {
+.search-text, .region-text, .login {
     font-size: 0.8rem;
 }
 
@@ -64,7 +60,6 @@ nav {
 }
 
 .login{
-    font-size: 0.8em;
     padding: 1em;
     border-radius: 2px;
     border:none;
