@@ -74,7 +74,7 @@
    color: white;
    background-color: rgba(27, 24, 24, 0.8);
    position: relative;
-   top: 6.5em;
+   top: 7em;
 }
 
 .available .container{
@@ -90,11 +90,11 @@
     width: 20px;
 }
 
-.container .col{
+.container .col-1{
   width: 80%;
 
 }
-.col {
+.col-1 {
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -112,7 +112,7 @@
 
 @media(min-width: 900px){
 
-  .col{
+  .col-1{
     display: flex;
   }
   .available{

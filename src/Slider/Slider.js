@@ -35,7 +35,7 @@ const Slider = () => {
                     <div className="available">
                         <div className="container">
                             <p>Available Now</p>
-                            <div class="col">
+                            <div class="col-1">
                                 <img clasName="ratings" src={Rating}/>
                                 <a className="site-link" href="/">Visit Site</a>
                             </div>
@@ -52,7 +52,7 @@ const Slider = () => {
                     <div className="available">
                             <div className="container">
                                 <p>Available Now</p>
-                                <div class="col">
+                                <div class="col-1">
                                     <img clasName="ratings" src={Rating}/>
                                     <a className="site-link" href="/">Visit Site</a>
                                 </div>
@@ -67,7 +67,7 @@ const Slider = () => {
                     <div className="available">
                             <div className="container">
                                 <p>Available Now</p>
-                                <div class="col">
+                                <div class="col-1">
                                     <img clasName="ratings" src={Rating}/>
                                     <a className="site-link" href="/">Visit Site</a>
                                 </div>
@@ -82,7 +82,7 @@ const Slider = () => {
                     <div className="available">
                             <div className="container">
                                 <p>Available Now</p>
-                                <div class="col">
+                                <div class="col-1">
                                     <img clasName="ratings" src={Rating}/>
                                     <a className="site-link" href="/">Visit Site</a>
                                 </div>
