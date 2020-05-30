@@ -9,7 +9,7 @@ import Trending from "../Trending/Trending"
 const Main = () => {
     return(
         <div className="page-container">
-            <Navigation/>
+            {/* <Navigation/> */}
             <Slider/>
             <MultiCarouselPage/>
             <Systems price1={'199.99'} price2={'149.99'}/>
