@@ -79,8 +79,13 @@
         margin-top: 1em;
     }
 
+    .title {
+        color: #076aff;
+    }
+
     .trending-bar .columns{
         display: flex;
+       
     }
 
     .trending-comp img{
