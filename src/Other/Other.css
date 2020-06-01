@@ -1,0 +1,63 @@
+.other-container{
+    max-width: 960px;
+    margin: auto;
+}
+
+.other-columns{
+    display: flex;
+    padding: 0.5em;
+}
+
+.other-img{
+    width: 50%;
+}
+
+.other-soon, .other-deals{
+    font-size: 1.3rem;
+    margin-bottom: 0em;
+}
+
+.other-soon{
+    color: #66A6E7;
+}
+
+.other-deals{
+    color: #FF8000;
+}
+
+.other-sec{
+    width: 50%;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+
+
+@media(min-width: 900px){
+
+
+    .other-img{
+        width: 95%;
+    }
+
+    .other-columns{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .other-container {
+        display: flex;
+        justify-content: center;
+     
+    }
+
+    .other-sec{
+        margin: 0 2em;
+        width: 200px;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+   
+   
+}
