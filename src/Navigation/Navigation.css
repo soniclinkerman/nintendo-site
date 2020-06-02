@@ -157,4 +157,9 @@ nav {
         justify-content: center;
     }
 
+    .bottom-nav ul{
+        padding: 0;
+        margin: auto;
+    }
+
 }
