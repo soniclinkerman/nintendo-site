@@ -125,3 +125,36 @@ nav {
 .bottom-nav .seven:hover {
     background-color: #ffffff;
 }
+
+@media (max-width: 900px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .bottom-nav li {
+        width: 100%;
+    }
+
+    .login{
+        padding: 0.2em 0.4em;
+        font-size: 12px;
+    }
+
+    .logo {
+        background-color: red;;
+    }
+
+    .top-nav{
+        padding: 0;
+        display: block;
+        color: white;
+        font-weight: bold;
+    }
+
+    .top-nav nav {
+        justify-content: center;
+    }
+
+}

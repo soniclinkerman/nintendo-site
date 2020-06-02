@@ -13,7 +13,7 @@ import Sources from "../Sources/Sources"
 const Main = () => {
     return(
         <div className="page-container">
-            {/* <Navigation/> */}
+            <Navigation/>
             <Slider/>
    
                 <MultiCarouselPage/>

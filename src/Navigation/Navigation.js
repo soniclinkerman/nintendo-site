@@ -11,7 +11,6 @@ const Navigation = () => {
                     <p>Nintendo</p>
                     </div>
            
-                
                 <nav>
                   
                     <a className="search" href="/">
@@ -34,6 +33,7 @@ const Navigation = () => {
             </div>
 
             <div className="bottom-nav">
+                <nav>
                     <ul className="">
                         <li className="one">
                             <p>
@@ -68,6 +68,7 @@ const Navigation = () => {
                             <p>My Nintendo</p>
                         </li>     
                     </ul>
+                </nav>
 
 
             </div>
