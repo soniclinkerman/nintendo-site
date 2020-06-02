@@ -19,8 +19,9 @@ a {
 }
 
 nav {
+
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .region-text, .region{
