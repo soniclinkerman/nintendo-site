@@ -9,6 +9,7 @@
     "mdbootstrap": "^4.19.0",
     "mdbreact": "^4.27.0",
     "react": "^16.13.1",
+    "react-collapsible": "^2.8.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-slideshow-image": "^1.4.2"

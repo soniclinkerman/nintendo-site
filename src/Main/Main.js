@@ -7,6 +7,7 @@ import Trending from "../Trending/Trending"
 import Scroll from "../Scroll/Scroll"
 import Other from "../Other/Other"
 import Footer from "../Footer/Footer"
+import Sources from "../Sources/Sources"
 
 
 const Main = () => {
@@ -21,6 +22,7 @@ const Main = () => {
             <Trending/>
 
             <Other/>
+            <Sources/>
 
             <Footer/>
 
