@@ -18,8 +18,11 @@ a {
 
 }
 
-nav {
+li {
+    font-size: 14px;
+}
 
+nav {
     display: flex;
     justify-content: center;
 }
