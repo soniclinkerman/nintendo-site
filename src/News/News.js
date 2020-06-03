@@ -1,7 +1,9 @@
 import React from "react";
 import "./News.css";
-import xenoblade from "../Trending/images/xenoblade_box.png"
-
+import xenoblade from "../Trending/images/xenoblade_box.png";
+import borderlands from "./images/borderlands.png";
+import bioshock from "./images/bioshock.png";
+import xcom from "./images/xcom.png";
 
 const News = () => {
     
@@ -44,12 +46,12 @@ const News = () => {
                                 <li className="release-game">
                                     <a>
                                         <div>
-                                            <img src={xenoblade} />
+                                            <img src={borderlands} />
                                         </div>
 
                                         <div>
                                             <span className="release-date"> 5.29.20</span>
-                                            <h4 className="release-name">Xenoblade Chronicles™: Definitive Edition</h4>
+                                            <h4 className="release-name">Borderlands Legendary Collection</h4>
                                             <p class="release-console">Nintendo Switch</p>
                                         </div>
 
@@ -67,12 +69,12 @@ const News = () => {
                                 <li className="release-game">
                                     <a>
                                         <div>
-                                            <img src={xenoblade} />
+                                            <img src={bioshock} />
                                         </div>
 
                                         <div>
                                             <span className="release-date"> 5.29.20</span>
-                                            <h4 className="release-name">Xenoblade Chronicles™: Definitive Edition</h4>
+                                            <h4 className="release-name">BioShock: The Collection</h4>
                                             <p class="release-console">Nintendo Switch</p>
                                         </div>
 
@@ -86,12 +88,12 @@ const News = () => {
                                 <li className="release-game">
                                     <a>
                                         <div>
-                                            <img src={xenoblade} />
+                                            <img src={xcom} />
                                         </div>
 
                                         <div>
                                             <span className="release-date"> 5.29.20</span>
-                                            <h4 className="release-name">Xenoblade Chronicles™: Definitive Edition</h4>
+                                            <h4 className="release-name">XCOM® 2 Collection</h4>
                                             <p class="release-console">Nintendo Switch</p>
                                         </div>
 
