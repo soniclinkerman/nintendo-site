@@ -11,7 +11,7 @@ const Trending = () => {
     return(
         <div>
             <div className="trending">
-                <div className="container">
+                <div className="trending-container">
                
 
                     <div className="trending-head">
@@ -22,7 +22,6 @@ const Trending = () => {
                     <div className="trending-bar">
 
                         <div className="columns">
-
                             <div className="trending-comp col">
                                 <a className="product" href="">
                                 <img src={ac}/>

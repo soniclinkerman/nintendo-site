@@ -1,0 +1,66 @@
+.releases{
+    margin-bottom: 2em;
+    border-bottom: 1px solid #d1d1d1;
+    width: 90%;
+    margin: auto;
+}
+
+
+.releases-title {
+    font-size: 1.8rem;
+}
+
+.release-games{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trending-head{
+    max-width: 950px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.release-game img {
+    width: 40%;
+    margin: auto;
+}
+
+.release-games ul {
+    list-style: none;
+    padding: 0;
+}
+
+.release-col{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+
+}
+
+.release-col ul{
+    margin: 0;
+}
+
+
+.release-date{
+    border-bottom: 2px solid red;
+    font-size: 1.3em;
+}
+
+.release-name{
+    font-size: 1.5em;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 0.5em;
+    margin: 0.5em 0;
+} 
+
+@media(min-width:600px){
+    .release-col{
+        flex-direction: row;
+    }
+
+}

@@ -94,6 +94,7 @@ nav {
     align-items: center;
     cursor: pointer;
     transition: 0.5s;
+    font-weight: bold;
     
 }
 
@@ -120,7 +121,10 @@ nav {
 
 .bottom-nav .five:hover {
     background-color: #FF3F3F;
+    color: #fff;
 }
+
+
 
 .bottom-nav .six:hover {
     background-color: #00BFF3;
